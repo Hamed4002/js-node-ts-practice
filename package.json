@@ -1,0 +1,15 @@
+{
+  "name": "js-node-ts-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practice exercises: JavaScript promises/async, Node.js core modules and TypeScript classes/types",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "typecheck": "tsc -p typescript/tsconfig.json",
+    "http-server": "node node-core/http-server/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
